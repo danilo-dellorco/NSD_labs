@@ -1,0 +1,7 @@
+[ebtables]
+-A FORWARD --in-interface swp1 -s ! 08:00:27:FC:EC:06 -j DROP
+-A FORWARD --in-interface swp2 -s 08:00:27:3E:37:5B -j DROP
+-A FORWARD --in-interface swp3 -s ! 08:00:27:3E:37:5B -j DROP
+-A INPUT --in-interface swp1 -s ! 08:00:27:FC:EC:06 -j DROP
+-A INPUT --in-interface swp2 -s 08:00:27:3E:37:5B -j DROP
+-A INPUT --in-interface swp3 -s ! 08:00:27:BB:50:7E -j DROP
