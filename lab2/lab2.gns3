@@ -45,15 +45,6 @@
                 "z": 2
             },
             {
-                "drawing_id": "261a9e7e-fc84-4ce8-9814-7efaed6313f5",
-                "locked": false,
-                "rotation": 0,
-                "svg": "<svg width=\"748.0\" height=\"449.0\"><ellipse cx=\"374\" rx=\"374\" cy=\"224\" ry=\"225\" fill=\"#ffffff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -772,
-                "y": -279,
-                "z": -2
-            },
-            {
                 "drawing_id": "09501a67-617d-45cc-8bb1-86bbaa9c2dc4",
                 "locked": false,
                 "rotation": 0,
@@ -88,12 +79,21 @@
                 "x": -371,
                 "y": 9,
                 "z": 2
+            },
+            {
+                "drawing_id": "691f67dd-94fd-49b1-b982-5da57c3d2a67",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"798.0\" height=\"434.0\"><ellipse cx=\"399\" rx=\"399\" cy=\"217\" ry=\"217\" fill=\"#ffffff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "x": -768,
+                "y": -273,
+                "z": -1
             }
         ],
         "links": [
             {
                 "filters": {},
-                "link_id": "4e3be2e6-7c67-4d5f-a99b-a060f6799d9b",
+                "link_id": "32918adb-f01e-4a15-9a68-c04963d4c666",
                 "link_style": {},
                 "nodes": [
                     {
@@ -113,8 +113,8 @@
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "swp0",
-                            "x": -52,
+                            "text": "swp1",
+                            "x": -43,
                             "y": 28
                         },
                         "node_id": "d44fceba-522b-4508-964d-91458671b0d8",
@@ -125,9 +125,21 @@
             },
             {
                 "filters": {},
-                "link_id": "09e58d9b-f88e-4ab0-a29d-8e5afb9fb3ed",
+                "link_id": "bc19e2e4-2d1b-485d-b392-f8ef62fba3de",
                 "link_style": {},
                 "nodes": [
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "swp2",
+                            "x": 33,
+                            "y": 61
+                        },
+                        "node_id": "d44fceba-522b-4508-964d-91458671b0d8",
+                        "port_number": 0
+                    },
                     {
                         "adapter_number": 0,
                         "label": {
@@ -139,49 +151,37 @@
                         },
                         "node_id": "b6116281-4f97-4a45-81f1-2a04efaffae4",
                         "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "swp1",
-                            "x": 33,
-                            "y": 61
-                        },
-                        "node_id": "d44fceba-522b-4508-964d-91458671b0d8",
-                        "port_number": 0
                     }
                 ],
                 "suspend": false
             },
             {
                 "filters": {},
-                "link_id": "0684ef04-27b5-443f-85c4-6da39885b1b1",
+                "link_id": "c98d4a01-202b-4edc-911d-f3b04367cde2",
                 "link_style": {},
                 "nodes": [
+                    {
+                        "adapter_number": 3,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "swp3",
+                            "x": 72,
+                            "y": 17
+                        },
+                        "node_id": "d44fceba-522b-4508-964d-91458671b0d8",
+                        "port_number": 0
+                    },
                     {
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "enp0s3",
-                            "x": -61,
-                            "y": 42
+                            "x": -7,
+                            "y": 33
                         },
                         "node_id": "91ee7972-5050-45a4-92eb-a0e4184bcfa0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 3,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "swp2",
-                            "x": 72,
-                            "y": 17
-                        },
-                        "node_id": "d44fceba-522b-4508-964d-91458671b0d8",
                         "port_number": 0
                     }
                 ],
@@ -311,7 +311,20 @@
                 "console": null,
                 "console_auto_start": false,
                 "console_type": "none",
-                "custom_adapters": [],
+                "custom_adapters": [
+                    {
+                        "adapter_number": 1,
+                        "port_name": "swp1"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "port_name": "swp2"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "port_name": "swp3"
+                    }
+                ],
                 "first_port_name": "mgmt",
                 "height": 45,
                 "label": {
