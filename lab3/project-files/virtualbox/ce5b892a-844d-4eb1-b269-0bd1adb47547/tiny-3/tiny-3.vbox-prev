@@ -6,12 +6,13 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.16-linux">
-  <Machine uuid="{ec08ab4e-4a37-455a-b2f1-f3be29eabe98}" name="tiny-3" OSType="Oracle_64" currentSnapshot="{5e0b2afa-88e5-42dd-ab3e-c341d41f1838}" snapshotFolder="Snapshots" lastStateChange="2022-10-12T14:52:39Z">
+  <Machine uuid="{ce5b892a-844d-4eb1-b269-0bd1adb47547}" name="tiny-3" OSType="Oracle_64" currentSnapshot="{5e0b2afa-88e5-42dd-ab3e-c341d41f1838}" snapshotFolder="Snapshots" lastStateChange="2022-10-17T16:02:10Z">
     <Description>Tiny image with some extensions for NSD class</Description>
     <ExtraData>
       <ExtraDataItem name="GNS3/Clone" value="yes"/>
       <ExtraDataItem name="GUI/LastCloseAction" value="PowerOffRestoringSnapshot"/>
       <ExtraDataItem name="GUI/LastNormalWindowPosition" value="604,158,1024,812"/>
+      <ExtraDataItem name="GUI/LastScaleWindowPosition" value="640,316,640,480"/>
     </ExtraData>
     <Snapshot uuid="{5e0b2afa-88e5-42dd-ab3e-c341d41f1838}" name="reset" timeStamp="2022-10-12T14:44:56Z">
       <Hardware>
@@ -85,13 +86,13 @@
         <Adapter slot="0" enabled="true" MACAddress="0800276D2310" cable="false" type="82540EM">
           <DisabledModes>
             <InternalNetwork name="intnet"/>
+            <GenericInterface driver="UDPTunnel">
+              <Property name="dest" value="127.0.0.1"/>
+              <Property name="dport" value="10037"/>
+              <Property name="sport" value="10036"/>
+            </GenericInterface>
             <NATNetwork name="NatNetwork"/>
           </DisabledModes>
-          <GenericInterface driver="UDPTunnel">
-            <Property name="dest" value="127.0.0.1"/>
-            <Property name="dport" value="10040"/>
-            <Property name="sport" value="10039"/>
-          </GenericInterface>
         </Adapter>
         <Adapter slot="1" enabled="true" MACAddress="080027319C94" type="82540EM">
           <DisabledModes>
@@ -107,8 +108,8 @@
           </DisabledModes>
           <GenericInterface driver="UDPTunnel">
             <Property name="dest" value="127.0.0.1"/>
-            <Property name="dport" value="10050"/>
-            <Property name="sport" value="10049"/>
+            <Property name="dport" value="10045"/>
+            <Property name="sport" value="10044"/>
           </GenericInterface>
         </Adapter>
         <Adapter slot="3" enabled="true" MACAddress="0800273465C4" cable="false" type="82540EM">
@@ -118,8 +119,8 @@
           </DisabledModes>
           <GenericInterface driver="UDPTunnel">
             <Property name="dest" value="127.0.0.1"/>
-            <Property name="dport" value="10056"/>
-            <Property name="sport" value="10055"/>
+            <Property name="dport" value="10051"/>
+            <Property name="sport" value="10050"/>
           </GenericInterface>
         </Adapter>
       </Network>
@@ -130,9 +131,9 @@
       <RTC localOrUTC="UTC"/>
       <Clipboard/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="it_IT" timestamp="1665586259507388000" flags=""/>
-        <GuestProperty name="NameInGNS3" value="tiny-3" timestamp="1665586264157832000" flags=""/>
-        <GuestProperty name="ProjectDirInGNS3" value="/home/danilo/code/NSD_labs/lab3/project-files/virtualbox/ce5b892a-844d-4eb1-b269-0bd1adb47547" timestamp="1665586264280737000" flags=""/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="it_IT" timestamp="1665587453513648000" flags="RDONLYGUEST"/>
+        <GuestProperty name="NameInGNS3" value="tiny-3" timestamp="1666011571122899000" flags=""/>
+        <GuestProperty name="ProjectDirInGNS3" value="/home/danilo/code/NSD_labs/lab3/project-files/virtualbox/ce5b892a-844d-4eb1-b269-0bd1adb47547" timestamp="1666011571232284000" flags=""/>
       </GuestProperties>
     </Hardware>
     <StorageControllers>
