@@ -1,0 +1,376 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "lab5",
+    "project_id": "ad997202-3ea9-48f6-b6d2-080fb960d1f4",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": true,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "d7a5130c-e366-4616-aa01-08080a41f1c8",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"200\" height=\"156\"><rect width=\"200\" height=\"156\" fill=\"#33d17a\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "x": -177,
+                "y": -251,
+                "z": 0
+            },
+            {
+                "drawing_id": "a148eaf1-a4de-4c20-9f4b-5015ad837023",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"200\" height=\"156\"><rect width=\"200\" height=\"156\" fill=\"#99c1f1\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "x": -361,
+                "y": 77,
+                "z": 0
+            },
+            {
+                "drawing_id": "05fcea9f-3e02-46f1-a1ed-4b5ba6bf0862",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"200\" height=\"156\"><rect width=\"200\" height=\"156\" fill=\"#f9f06b\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "x": -5,
+                "y": 76,
+                "z": 0
+            },
+            {
+                "drawing_id": "6b99acf9-14e6-4618-ae8b-1e3cbbfed1e5",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"69\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">VLAN 30</text></svg>",
+                "x": -110,
+                "y": -253,
+                "z": 2
+            },
+            {
+                "drawing_id": "428654b1-ade6-4687-a006-b873cf2608dd",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"69\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">VLAN 10</text></svg>",
+                "x": -291,
+                "y": 208,
+                "z": 2
+            },
+            {
+                "drawing_id": "c55c01a7-b8a7-47ee-a5c5-9030adbb42a9",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"69\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">VLAN 20</text></svg>",
+                "x": 62,
+                "y": 205,
+                "z": 2
+            }
+        ],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "ecf79fae-56b4-4a2f-81c8-a1011168f8ac",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "enp0s3",
+                            "x": -29,
+                            "y": 69
+                        },
+                        "node_id": "5bfbaafa-633c-4493-a3c3-deef84ee9c6d",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "swp1",
+                            "x": -26,
+                            "y": -27
+                        },
+                        "node_id": "857e7dde-2235-4357-84d4-14466ada5f09",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "24d820fc-7ae6-4b5e-bf44-1d572576b80b",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "enp0s3",
+                            "x": 63,
+                            "y": -1
+                        },
+                        "node_id": "d9243055-4095-47d2-bd7b-77a8a86663db",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "swp2",
+                            "x": -56,
+                            "y": 46
+                        },
+                        "node_id": "857e7dde-2235-4357-84d4-14466ada5f09",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "433960b7-68e4-44f0-a784-d0d1dbe9e5c3",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "enp0s3",
+                            "x": -59,
+                            "y": -1
+                        },
+                        "node_id": "24dc195f-abdf-40c3-b1a6-a2845e8c6e38",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "swp3",
+                            "x": 73,
+                            "y": 42
+                        },
+                        "node_id": "857e7dde-2235-4357-84d4-14466ada5f09",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 0,
+                        "adapter_type": "Paravirtualized Network (virtio-net)"
+                    },
+                    {
+                        "adapter_number": 1,
+                        "adapter_type": "Paravirtualized Network (virtio-net)",
+                        "port_name": "swp1"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "adapter_type": "Paravirtualized Network (virtio-net)",
+                        "port_name": "swp2"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "adapter_type": "Paravirtualized Network (virtio-net)",
+                        "port_name": "swp3"
+                    },
+                    {
+                        "adapter_number": 4,
+                        "adapter_type": "Paravirtualized Network (virtio-net)",
+                        "port_name": "swp4"
+                    },
+                    {
+                        "adapter_number": 5,
+                        "adapter_type": "Paravirtualized Network (virtio-net)",
+                        "port_name": "swp5"
+                    },
+                    {
+                        "adapter_number": 6,
+                        "adapter_type": "Paravirtualized Network (virtio-net)",
+                        "port_name": "swp6"
+                    },
+                    {
+                        "adapter_number": 7,
+                        "adapter_type": "Paravirtualized Network (virtio-net)",
+                        "port_name": "swp7"
+                    }
+                ],
+                "first_port_name": "mgmt",
+                "height": 56,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "cumulus_dot1",
+                    "x": 60,
+                    "y": -10
+                },
+                "locked": false,
+                "name": "cumulus_dot1",
+                "node_id": "857e7dde-2235-4357-84d4-14466ada5f09",
+                "node_type": "virtualbox",
+                "port_name_format": "swp{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 8,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 1024,
+                    "usage": "",
+                    "use_any_adapter": true,
+                    "vmname": "cumulus_dot1x"
+                },
+                "symbol": ":/symbols/classic/gateway.svg",
+                "template_id": "dd53c307-757f-4541-9926-88a171b89d52",
+                "width": 66,
+                "x": -111,
+                "y": -51,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "enp0s3",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "lubuntu1",
+                    "x": 57,
+                    "y": 18
+                },
+                "locked": false,
+                "name": "lubuntu1",
+                "node_id": "5bfbaafa-633c-4493-a3c3-deef84ee9c6d",
+                "node_type": "virtualbox",
+                "port_name_format": "enp0s{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Paravirtualized Network (virtio-net)",
+                    "adapters": 4,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 1024,
+                    "usage": "",
+                    "use_any_adapter": true,
+                    "vmname": "lubuntu1"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "1a55ef06-250a-4109-94ea-dc21668d4d7e",
+                "width": 65,
+                "x": -111,
+                "y": -209,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "enp0s3",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "lubuntu2",
+                    "x": -4,
+                    "y": 60
+                },
+                "locked": false,
+                "name": "lubuntu2",
+                "node_id": "d9243055-4095-47d2-bd7b-77a8a86663db",
+                "node_type": "virtualbox",
+                "port_name_format": "enp0s{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Paravirtualized Network (virtio-net)",
+                    "adapters": 4,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 1024,
+                    "usage": "",
+                    "use_any_adapter": true,
+                    "vmname": "lubuntu2"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "62999502-0a6d-47fc-84ce-3c9000ae37ed",
+                "width": 65,
+                "x": -290,
+                "y": 113,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "enp0s3",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "lubuntu3",
+                    "x": -6,
+                    "y": 55
+                },
+                "locked": false,
+                "name": "lubuntu3",
+                "node_id": "24dc195f-abdf-40c3-b1a6-a2845e8c6e38",
+                "node_type": "virtualbox",
+                "port_name_format": "enp0s{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Paravirtualized Network (virtio-net)",
+                    "adapters": 4,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 1024,
+                    "usage": "",
+                    "use_any_adapter": false,
+                    "vmname": "lubuntu3"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "f2eb40ee-b970-4ceb-bb97-31074a18b4f6",
+                "width": 65,
+                "x": 66,
+                "y": 109,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.34",
+    "zoom": 100
+}
