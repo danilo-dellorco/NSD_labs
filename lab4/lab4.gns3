@@ -48,7 +48,7 @@
                 "drawing_id": "b87db713-88bf-4293-85f3-f62ba3f44f40",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"143\" height=\"123\"><rect width=\"143\" height=\"123\" fill=\"#f9f06b\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "svg": "<svg width=\"143\" height=\"123\"><rect width=\"143\" height=\"123\" fill=\"#f9f06b\" fill-opacity=\"1.0\" stroke-width=\"5\" stroke=\"#e01b24\" /></svg>",
                 "x": 138,
                 "y": -59,
                 "z": 0
@@ -60,15 +60,6 @@
                 "svg": "<svg width=\"97\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#c061cb\" fill-opacity=\"1.0\">TRUNK LINK</text></svg>",
                 "x": -106,
                 "y": -175,
-                "z": 2
-            },
-            {
-                "drawing_id": "8725e037-f7cc-4d62-929f-99214b6ef335",
-                "locked": false,
-                "rotation": 45,
-                "svg": "<svg width=\"97\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#c061cb\" fill-opacity=\"1.0\">TRUNK LINK</text></svg>",
-                "x": 17,
-                "y": -276,
                 "z": 2
             },
             {
@@ -108,30 +99,12 @@
                 "z": 2
             },
             {
-                "drawing_id": "66d6ae0f-a519-428e-b8f3-e1254c65443f",
-                "locked": false,
-                "rotation": 0,
-                "svg": "<svg width=\"125\" height=\"96\"><rect width=\"125\" height=\"96\" fill=\"#99c1f1\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -214,
-                "y": -388,
-                "z": 0
-            },
-            {
-                "drawing_id": "99af2714-4688-4903-87b3-ad906b245642",
-                "locked": false,
-                "rotation": 0,
-                "svg": "<svg width=\"123\" height=\"96\"><rect width=\"123\" height=\"96\" fill=\"#f9f06b\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -86,
-                "y": -388,
-                "z": 0
-            },
-            {
                 "drawing_id": "7d196fa4-9b45-4185-83ce-cc805e3d28c8",
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"69\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">VLAN 10</text></svg>",
-                "x": 159,
-                "y": -370,
+                "x": -68,
+                "y": -307,
                 "z": 2
             },
             {
@@ -139,8 +112,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"47\" height=\"30\"><rect width=\"47\" height=\"30\" fill=\"#99c1f1\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": 109,
-                "y": -373,
+                "x": -118,
+                "y": -310,
                 "z": 1
             },
             {
@@ -148,8 +121,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"47\" height=\"30\"><rect width=\"47\" height=\"30\" fill=\"#f9f06b\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": 109,
-                "y": -337,
+                "x": -118,
+                "y": -274,
                 "z": 1
             },
             {
@@ -157,8 +130,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"69\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">VLAN 20</text></svg>",
-                "x": 159,
-                "y": -334,
+                "x": -68,
+                "y": -271,
                 "z": 2
             },
             {
@@ -171,57 +144,12 @@
                 "z": 2
             },
             {
-                "drawing_id": "6eadd796-8191-45bc-97f2-03e918bbb3f3",
-                "locked": false,
-                "rotation": 0,
-                "svg": "<svg width=\"99\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.0.10.1/24</text></svg>",
-                "x": -202,
-                "y": -385,
-                "z": 2
-            },
-            {
-                "drawing_id": "1fbccc4b-6060-4efb-b1f5-c5447b140c39",
-                "locked": false,
-                "rotation": 0,
-                "svg": "<svg width=\"99\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.0.20.1/24</text></svg>",
-                "x": -76,
-                "y": -385,
-                "z": 2
-            },
-            {
-                "drawing_id": "461573d4-23e9-4851-b6d6-a7d487d67e9c",
-                "locked": false,
-                "rotation": 0,
-                "svg": "<svg width=\"70\" height=\"26\"><text font-family=\"URW Gothic [urw]\" font-size=\"10.0\" fill=\"#000000\" fill-opacity=\"1.0\">enp0s3.10</text></svg>",
-                "x": -190,
-                "y": -317,
-                "z": 2
-            },
-            {
-                "drawing_id": "7647a6b8-6663-4071-90f9-ac95a4fa26c4",
-                "locked": false,
-                "rotation": 0,
-                "svg": "<svg width=\"69\" height=\"19\"><rect width=\"69\" height=\"19\" fill=\"#ffffff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#00ff00\" /></svg>",
-                "x": -116,
-                "y": -286,
-                "z": 0
-            },
-            {
-                "drawing_id": "76ea5af5-0f08-4b03-b12a-354695b7c3c6",
-                "locked": false,
-                "rotation": 0,
-                "svg": "<svg width=\"70\" height=\"26\"><text font-family=\"URW Gothic [urw]\" font-size=\"10.0\" fill=\"#000000\" fill-opacity=\"1.0\">enp0s3.20</text></svg>",
-                "x": -48,
-                "y": -321,
-                "z": 2
-            },
-            {
                 "drawing_id": "1f759430-bb48-4741-9b2e-82c159aba32a",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"130\" height=\"123\"><rect width=\"130\" height=\"123\" fill=\"#8ff0a4\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -454,
-                "y": -341,
+                "svg": "<svg width=\"130\" height=\"123\"><rect width=\"130\" height=\"123\" fill=\"#8ff0a4\" fill-opacity=\"1.0\" stroke-width=\"5\" stroke=\"#e01b24\" /></svg>",
+                "x": -409,
+                "y": -321,
                 "z": 0
             },
             {
@@ -229,8 +157,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"60\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">VLAN 1</text></svg>",
-                "x": -393,
-                "y": -378,
+                "x": -67,
+                "y": -236,
                 "z": 2
             },
             {
@@ -238,8 +166,35 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"47\" height=\"30\"><rect width=\"47\" height=\"30\" fill=\"#8ff0a4\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -444,
-                "y": -381,
+                "x": -118,
+                "y": -239,
+                "z": 2
+            },
+            {
+                "drawing_id": "0babf6fb-3bea-43d6-b775-1d38f9bc62df",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"59\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#e01b24\" fill-opacity=\"1.0\">VICTIM</text></svg>",
+                "x": 206,
+                "y": -89,
+                "z": 2
+            },
+            {
+                "drawing_id": "b3369264-fed0-40b0-a3d2-4a42a99d81c0",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"82\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#e01b24\" fill-opacity=\"1.0\">ATTACKER</text></svg>",
+                "x": -381,
+                "y": -349,
+                "z": 2
+            },
+            {
+                "drawing_id": "0d7c2b3f-720a-4763-9625-a260f8d39818",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"95\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.0.20.250</text></svg>",
+                "x": -386,
+                "y": -194,
                 "z": 2
             }
         ],
@@ -426,44 +381,12 @@
             },
             {
                 "filters": {},
-                "link_id": "c9f34554-7ccb-491b-88a7-52575a1727c4",
-                "link_style": {
-                    "color": "#dc8add",
-                    "type": 1,
-                    "width": 10
-                },
-                "nodes": [
-                    {
-                        "adapter_number": 4,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "swp4",
-                            "x": 5,
-                            "y": -29
-                        },
-                        "node_id": "e064ee5a-edb9-4b7d-b051-4d5edd0f598e",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "enp0s3",
-                            "x": 9,
-                            "y": 73
-                        },
-                        "node_id": "27befbb3-5b5d-4eb6-ada4-54afa726fb7c",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "6dfd391d-695e-4fd6-81b9-a09f594c393a",
-                "link_style": {},
+                "link_style": {
+                    "color": "#33d17a",
+                    "type": 1,
+                    "width": 6
+                },
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -471,8 +394,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": 35,
-                            "y": 61
+                            "x": 26,
+                            "y": 62
                         },
                         "node_id": "4266f9df-1aae-4ef2-8a53-77cf7e109b7b",
                         "port_number": 0
@@ -494,45 +417,6 @@
             }
         ],
         "nodes": [
-            {
-                "compute_id": "local",
-                "console": null,
-                "console_auto_start": false,
-                "console_type": "none",
-                "custom_adapters": [],
-                "first_port_name": "enp0s3",
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "lubuntu1-router",
-                    "x": -30,
-                    "y": -51
-                },
-                "locked": false,
-                "name": "lubuntu1-router",
-                "node_id": "27befbb3-5b5d-4eb6-ada4-54afa726fb7c",
-                "node_type": "virtualbox",
-                "port_name_format": "enp0s{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "adapter_type": "Paravirtualized Network (virtio-net)",
-                    "adapters": 4,
-                    "headless": false,
-                    "linked_clone": false,
-                    "on_close": "power_off",
-                    "ram": 1024,
-                    "usage": "",
-                    "use_any_adapter": true,
-                    "vmname": "lubuntu1"
-                },
-                "symbol": ":/symbols/vbox_guest.svg",
-                "template_id": "1a55ef06-250a-4109-94ea-dc21668d4d7e",
-                "width": 65,
-                "x": -121,
-                "y": -362,
-                "z": 1
-            },
             {
                 "compute_id": "local",
                 "console": null,
@@ -839,13 +723,13 @@
                 "height": 59,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #e01b24;fill-opacity: 1.0;",
-                    "text": "tiny5-ATTACKER",
-                    "x": -30,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "tiny5",
+                    "x": 9,
                     "y": -25
                 },
                 "locked": false,
-                "name": "tiny5-ATTACKER",
+                "name": "tiny5",
                 "node_id": "4266f9df-1aae-4ef2-8a53-77cf7e109b7b",
                 "node_type": "virtualbox",
                 "port_name_format": "eth{0}",
@@ -859,13 +743,13 @@
                     "ram": 512,
                     "usage": "",
                     "use_any_adapter": false,
-                    "vmname": "tiny5-ATTACKER"
+                    "vmname": "tiny5"
                 },
                 "symbol": ":/symbols/vbox_guest.svg",
                 "template_id": "fa802753-4433-411f-b29d-32cbb803aef2",
                 "width": 65,
-                "x": -422,
-                "y": -309,
+                "x": -377,
+                "y": -289,
                 "z": 1
             }
         ]

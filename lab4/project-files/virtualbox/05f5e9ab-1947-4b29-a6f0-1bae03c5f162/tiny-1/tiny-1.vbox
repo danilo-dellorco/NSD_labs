@@ -6,12 +6,12 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.16-linux">
-  <Machine uuid="{05f5e9ab-1947-4b29-a6f0-1bae03c5f162}" name="tiny-1" OSType="Oracle_64" currentSnapshot="{45e20b54-cc83-42c8-a9fa-8f2ec2d9cd7f}" snapshotFolder="Snapshots" lastStateChange="2022-10-17T16:02:09Z">
+  <Machine uuid="{05f5e9ab-1947-4b29-a6f0-1bae03c5f162}" name="tiny-1" OSType="Oracle_64" currentSnapshot="{45e20b54-cc83-42c8-a9fa-8f2ec2d9cd7f}" snapshotFolder="Snapshots" lastStateChange="2022-10-20T10:41:24Z">
     <Description>Tiny image with some extensions for NSD class</Description>
     <ExtraData>
       <ExtraDataItem name="GNS3/Clone" value="yes"/>
       <ExtraDataItem name="GUI/LastCloseAction" value="PowerOffRestoringSnapshot"/>
-      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="604,158,1024,812"/>
+      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="0,69,960,1011"/>
     </ExtraData>
     <Snapshot uuid="{45e20b54-cc83-42c8-a9fa-8f2ec2d9cd7f}" name="reset" timeStamp="2022-10-12T14:44:53Z">
       <Hardware>
@@ -87,8 +87,8 @@
             <InternalNetwork name="intnet"/>
             <GenericInterface driver="UDPTunnel">
               <Property name="dest" value="127.0.0.1"/>
-              <Property name="dport" value="10015"/>
-              <Property name="sport" value="10014"/>
+              <Property name="dport" value="10011"/>
+              <Property name="sport" value="10010"/>
             </GenericInterface>
             <NATNetwork name="NatNetwork"/>
           </DisabledModes>
@@ -100,18 +100,18 @@
           </DisabledModes>
           <HostOnlyInterface name="vboxnet0"/>
         </Adapter>
-        <Adapter slot="2" enabled="true" MACAddress="08002752F28C" cable="false" type="82540EM">
+        <Adapter slot="2" enabled="true" MACAddress="0800274F10D8" cable="false" type="82540EM">
           <DisabledModes>
             <InternalNetwork name="intnet"/>
             <NATNetwork name="NatNetwork"/>
           </DisabledModes>
           <GenericInterface driver="UDPTunnel">
             <Property name="dest" value="127.0.0.1"/>
-            <Property name="dport" value="10025"/>
-            <Property name="sport" value="10024"/>
+            <Property name="dport" value="10021"/>
+            <Property name="sport" value="10020"/>
           </GenericInterface>
         </Adapter>
-        <Adapter slot="3" enabled="true" MACAddress="0800274375DA" cable="false" type="82540EM">
+        <Adapter slot="3" enabled="true" MACAddress="0800273FDC4F" cable="false" type="82540EM">
           <DisabledModes>
             <InternalNetwork name="intnet"/>
             <NATNetwork name="NatNetwork"/>
@@ -130,18 +130,14 @@
       <RTC localOrUTC="UTC"/>
       <Clipboard/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="it_IT" timestamp="1665586245844758000" flags=""/>
-        <GuestProperty name="NameInGNS3" value="tiny-1" timestamp="1666011563120592000" flags=""/>
-        <GuestProperty name="ProjectDirInGNS3" value="/home/danilo/code/NSD_labs/lab3/project-files/virtualbox/05f5e9ab-1947-4b29-a6f0-1bae03c5f162" timestamp="1666011563243941000" flags=""/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="it_IT" timestamp="1666262485005836000" flags=""/>
+        <GuestProperty name="NameInGNS3" value="tiny-1" timestamp="1666256802992634000" flags=""/>
+        <GuestProperty name="ProjectDirInGNS3" value="/home/danilo/code/NSD_labs/lab4/project-files/virtualbox/05f5e9ab-1947-4b29-a6f0-1bae03c5f162" timestamp="1666256803197509000" flags=""/>
       </GuestProperties>
     </Hardware>
     <StorageControllers>
       <StorageController name="IDE" type="PIIX4" PortCount="2" useHostIOCache="true" Bootable="true"/>
-      <StorageController name="SATA" type="AHCI" PortCount="1" useHostIOCache="false" Bootable="true" IDE0MasterEmulationPort="0" IDE0SlaveEmulationPort="1" IDE1MasterEmulationPort="2" IDE1SlaveEmulationPort="3">
-        <AttachedDevice type="HardDisk" hotpluggable="false" port="0" device="0">
-          <Image uuid="{5a24f26f-370a-4acd-862d-f149449128e9}"/>
-        </AttachedDevice>
-      </StorageController>
+      <StorageController name="SATA" type="AHCI" PortCount="1" useHostIOCache="false" Bootable="true" IDE0MasterEmulationPort="0" IDE0SlaveEmulationPort="1" IDE1MasterEmulationPort="2" IDE1SlaveEmulationPort="3"/>
     </StorageControllers>
     <VideoCapture options="vc_enabled=true,ac_enabled=true,ac_profile=med" fps="25"/>
   </Machine>
