@@ -22,8 +22,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"143\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">08:00:27:BB:50:7E</text></svg>",
-                "x": -467,
-                "y": 128,
+                "x": -206,
+                "y": -90,
                 "z": 2
             },
             {
@@ -40,17 +40,17 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"143\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">08:00:27:3E:37:5B</text></svg>",
-                "x": -201,
-                "y": -91,
+                "x": -473,
+                "y": 123,
                 "z": 2
             },
             {
                 "drawing_id": "09501a67-617d-45cc-8bb1-86bbaa9c2dc4",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"218\" height=\"48\"><text font-family=\"LM Sans 10\" font-size=\"20.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">Rete 10.0.0.0/24</text></svg>",
-                "x": -509,
-                "y": -254,
+                "svg": "<svg width=\"250\" height=\"57\"><text font-family=\"Noto Looped Lao\" font-size=\"20.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">Rete 10.0.0.0/24</text></svg>",
+                "x": -520,
+                "y": -252,
                 "z": 2
             },
             {
@@ -67,8 +67,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"40\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.103</text></svg>",
-                "x": -269,
-                "y": -138,
+                "x": -210,
+                "y": -114,
                 "z": 2
             },
             {
@@ -76,15 +76,15 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"40\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.102</text></svg>",
-                "x": -371,
-                "y": 9,
+                "x": -380,
+                "y": 16,
                 "z": 2
             },
             {
                 "drawing_id": "691f67dd-94fd-49b1-b982-5da57c3d2a67",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"798.0\" height=\"434.0\"><ellipse cx=\"399\" rx=\"399\" cy=\"217\" ry=\"217\" fill=\"#ffffff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "svg": "<svg width=\"751.0\" height=\"434.0\"><ellipse cx=\"375\" rx=\"376\" cy=\"217\" ry=\"217\" fill=\"#ffffff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
                 "x": -768,
                 "y": -273,
                 "z": -1
@@ -125,31 +125,31 @@
             },
             {
                 "filters": {},
-                "link_id": "bc19e2e4-2d1b-485d-b392-f8ef62fba3de",
+                "link_id": "cd1efb01-34b2-471f-8f63-5cdf740a741f",
                 "link_style": {},
                 "nodes": [
-                    {
-                        "adapter_number": 2,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "swp2",
-                            "x": 33,
-                            "y": 61
-                        },
-                        "node_id": "d44fceba-522b-4508-964d-91458671b0d8",
-                        "port_number": 0
-                    },
                     {
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "enp0s3",
-                            "x": 31,
-                            "y": -10
+                            "x": -39,
+                            "y": -25
                         },
-                        "node_id": "b6116281-4f97-4a45-81f1-2a04efaffae4",
+                        "node_id": "91ee7972-5050-45a4-92eb-a0e4184bcfa0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "swp2",
+                            "x": 35,
+                            "y": 61
+                        },
+                        "node_id": "d44fceba-522b-4508-964d-91458671b0d8",
                         "port_number": 0
                     }
                 ],
@@ -157,9 +157,21 @@
             },
             {
                 "filters": {},
-                "link_id": "c98d4a01-202b-4edc-911d-f3b04367cde2",
+                "link_id": "27fb55ae-49bb-48db-87a1-3bfe4125c26c",
                 "link_style": {},
                 "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "enp0s3",
+                            "x": -55,
+                            "y": 7
+                        },
+                        "node_id": "b6116281-4f97-4a45-81f1-2a04efaffae4",
+                        "port_number": 0
+                    },
                     {
                         "adapter_number": 3,
                         "label": {
@@ -170,18 +182,6 @@
                             "y": 17
                         },
                         "node_id": "d44fceba-522b-4508-964d-91458671b0d8",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "enp0s3",
-                            "x": -7,
-                            "y": 33
-                        },
-                        "node_id": "91ee7972-5050-45a4-92eb-a0e4184bcfa0",
                         "port_number": 0
                     }
                 ],
@@ -239,12 +239,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "lubuntu3",
-                    "x": -4,
-                    "y": -25
+                    "text": "lubuntu2",
+                    "x": -9,
+                    "y": 59
                 },
                 "locked": false,
-                "name": "lubuntu3",
+                "name": "lubuntu2",
                 "node_id": "91ee7972-5050-45a4-92eb-a0e4184bcfa0",
                 "node_type": "virtualbox",
                 "port_name_format": "enp0s{0}",
@@ -263,8 +263,8 @@
                 "symbol": ":/symbols/vbox_guest.svg",
                 "template_id": "62999502-0a6d-47fc-84ce-3c9000ae37ed",
                 "width": 65,
-                "x": -163,
-                "y": -150,
+                "x": -428,
+                "y": 47,
                 "z": 1
             },
             {
@@ -278,12 +278,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "lubuntu2",
-                    "x": -6,
-                    "y": 57
+                    "text": "lubuntu3",
+                    "x": -4,
+                    "y": -25
                 },
                 "locked": false,
-                "name": "lubuntu2",
+                "name": "lubuntu3",
                 "node_id": "b6116281-4f97-4a45-81f1-2a04efaffae4",
                 "node_type": "virtualbox",
                 "port_name_format": "enp0s{0}",
@@ -302,8 +302,8 @@
                 "symbol": ":/symbols/vbox_guest.svg",
                 "template_id": "f2eb40ee-b970-4ceb-bb97-31074a18b4f6",
                 "width": 65,
-                "x": -431,
-                "y": 51,
+                "x": -163,
+                "y": -152,
                 "z": 1
             },
             {
