@@ -1,0 +1,13 @@
+##Put in /etc/freeradius/3.0/users
+
+user1	Cleartext-Password := “u1_psw”
+			Service-Type = Framed-User,
+			Tunnel-Type = 13, ##VLAN
+			Tunnel-Medium-Type = 6, ##IEEE-802
+			Tunnel-Private-Group-ID = 10
+
+user2 	Cleartext-Password := “u2_psw”
+			Service-Type = Framed-User,
+			Tunnel-Type = 13, ##VLAN
+			Tunnel-Medium-type = 6, ##IEEE-802
+			Tunnel-Private-Group-ID = 20

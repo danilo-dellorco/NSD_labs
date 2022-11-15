@@ -1,4 +1,4 @@
-net add bridge bridge ports swp1,swp2,swp
+net add bridge bridge ports swp1,swp2,swp3
 net add bridge bridge vids 30
 
 net add interface swp3 bridge access 30
