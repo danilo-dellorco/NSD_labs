@@ -16,7 +16,26 @@
     "supplier": null,
     "topology": {
         "computes": [],
-        "drawings": [],
+        "drawings": [
+            {
+                "drawing_id": "4f2e4190-6fb0-4fe1-82ea-5d0cc0237999",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"168\" height=\"31\"><text font-family=\"DejaVu Sans\" font-size=\"14.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">eBPF-XDP Host</text></svg>",
+                "x": -373,
+                "y": -127,
+                "z": 2
+            },
+            {
+                "drawing_id": "6d83542f-29c5-4315-ace3-39397e05685b",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"84\" height=\"31\"><text font-family=\"DejaVu Sans\" font-size=\"14.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">Sender</text></svg>",
+                "x": -54,
+                "y": -129,
+                "z": 2
+            }
+        ],
         "links": [
             {
                 "filters": {},
@@ -63,12 +82,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "lubuntu1-1",
-                    "x": -11,
+                    "text": "lubuntu1",
+                    "x": -4,
                     "y": -25
                 },
                 "locked": false,
-                "name": "lubuntu1-1",
+                "name": "lubuntu1",
                 "node_id": "ab6a7e01-aece-4bc6-b817-62a97e3b5aaf",
                 "node_type": "virtualbox",
                 "port_name_format": "enp0s{0}",
@@ -87,7 +106,7 @@
                 "symbol": ":/symbols/vbox_guest.svg",
                 "template_id": "1a55ef06-250a-4109-94ea-dc21668d4d7e",
                 "width": 65,
-                "x": -318,
+                "x": -317,
                 "y": -67,
                 "z": 1
             },
@@ -102,12 +121,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "lubuntu2-1",
-                    "x": -11,
+                    "text": "lubuntu2",
+                    "x": -4,
                     "y": -25
                 },
                 "locked": false,
-                "name": "lubuntu2-1",
+                "name": "lubuntu2",
                 "node_id": "09ff9ce7-fd99-4353-a4c3-0da8da690d6e",
                 "node_type": "virtualbox",
                 "port_name_format": "enp0s{0}",
@@ -126,14 +145,14 @@
                 "symbol": ":/symbols/vbox_guest.svg",
                 "template_id": "62999502-0a6d-47fc-84ce-3c9000ae37ed",
                 "width": 65,
-                "x": -29,
-                "y": -6,
+                "x": -43,
+                "y": -66,
                 "z": 1
             }
         ]
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.35",
+    "version": "2.2.35.1",
     "zoom": 100
 }
