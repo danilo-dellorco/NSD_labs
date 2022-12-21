@@ -10,7 +10,7 @@
     "scene_height": 1000,
     "scene_width": 2000,
     "show_grid": false,
-    "show_interface_labels": false,
+    "show_interface_labels": true,
     "show_layers": false,
     "snap_to_grid": false,
     "supplier": null,
@@ -48,8 +48,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "enp0s3",
-                            "x": 71,
-                            "y": 37
+                            "x": 70,
+                            "y": 4
                         },
                         "node_id": "ab6a7e01-aece-4bc6-b817-62a97e3b5aaf",
                         "port_number": 0
@@ -60,8 +60,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "enp0s3",
-                            "x": -6,
-                            "y": 21
+                            "x": -58,
+                            "y": 0
                         },
                         "node_id": "09ff9ce7-fd99-4353-a4c3-0da8da690d6e",
                         "port_number": 0
