@@ -34,6 +34,24 @@
                 "x": -54,
                 "y": -129,
                 "z": 2
+            },
+            {
+                "drawing_id": "430e4ed2-28a4-4bce-8f39-f08f44cbd271",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"90\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.0.0.1/24</text></svg>",
+                "x": -251,
+                "y": -20,
+                "z": 2
+            },
+            {
+                "drawing_id": "ce231dbd-c2e5-4b42-a905-2fd4c0496d25",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"90\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.0.0.2/24</text></svg>",
+                "x": -136,
+                "y": -20,
+                "z": 2
             }
         ],
         "links": [
