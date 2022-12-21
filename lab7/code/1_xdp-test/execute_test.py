@@ -6,7 +6,7 @@ import os
 # dummy ARP request for ip address 0.0.0.0
 p1 = Ether(dst="ff:ff:ff:ff:ff:ff")/ARP(op=1)
 # dummy ipv6 packet
-p2 = Ether(dst="00:0c:29:76:28:bf")/IPv6()
+p2 = Ether(dst="ff:ff:ff:ff:ff:ff")/IPv6()
 # TX (key 2)
 # exact match
 # dummy IPv4 packet to 8.8.8.8
