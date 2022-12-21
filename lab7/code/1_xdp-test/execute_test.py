@@ -3,13 +3,6 @@
 p=Ether(dst="ff:ff:ff:ff:ff:ff")/ARP(op=1)
 #dummy ipv6 packet
 p=Ether(dst="00:0c:29:76:28:bf")/IPv6()
-several strategies are
-possible. I have chosen
-to use python/scapy to
-generate packets and
-check for the actual
-classification by dumping
-the stats map.
 #TX (key 2)
 #exact match
 #dummy IPv4 packet to 8.8.8.8
