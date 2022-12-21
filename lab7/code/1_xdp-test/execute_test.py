@@ -35,7 +35,3 @@ sendp(p3, iface="enp0s3")
 print("Packet 3 Sent to Host")
 sendp(p4, iface="enp0s3")
 print("Packet 4 Sent to Host")
-
-print("Analyzing Results")
-time.sleep(3)
-os.system("bpftool map dump name stats_db")
