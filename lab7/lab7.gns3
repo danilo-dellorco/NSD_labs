@@ -22,7 +22,7 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"168\" height=\"31\"><text font-family=\"DejaVu Sans\" font-size=\"14.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">eBPF-XDP Host</text></svg>",
-                "x": -373,
+                "x": -365,
                 "y": -127,
                 "z": 2
             },
