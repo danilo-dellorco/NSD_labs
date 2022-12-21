@@ -10,16 +10,16 @@ p2 = Ether(dst="ff:ff:ff:ff:ff:ff")/IPv6()
 # TX (key 2)
 # exact match
 # dummy IPv4 packet to 8.8.8.8
-p3 = Ether(dst="00:0c:29:76:28:bf")/IP(src="7.7.7.7", dst="8.8.8.8")
+p3 = Ether(dst="ff:ff:ff:ff:ff:ff")/IP(src="7.7.7.7", dst="8.8.8.8")
 # LPM match
 # dummy IPv4 packet from 10.0.0.1
-p4 = Ether(dst="00:0c:29:76:28:bf") / \
+p4 = Ether(dst="ff:ff:ff:ff:ff:ff") / \
     IP(src="10.0.0.1", dst="1.1.1.1")
 # dummy IPv4 packet from 192.168.0.1
-p5 = Ether(dst="00:0c:29:76:28:bf") / \
+p5 = Ether(dst="ff:ff:ff:ff:ff:ff") / \
     IP(src="192.168.0.1", dst="1.1.1.1")
 # DROP (key 1)
-p6 = Ether(dst="00:0c:29:76:28:bf")/IP(src="1.1.1.1", dst="2.2.2.2")
+p6 = Ether(dst="ff:ff:ff:ff:ff:ff")/IP(src="1.1.1.1", dst="2.2.2.2")
 
 # try and send a ping. arp is passed (response received)
 # ping is dropped (no response is received)
